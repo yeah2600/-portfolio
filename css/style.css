@@ -124,7 +124,7 @@ header{
     margin: 0 auto;
 }
 
-#leftname,#rightname{
+#leftname,#rightname,.liststyle{
     width: 230px;
     margin: 0 auto;
     border-radius: 20px;
@@ -195,6 +195,8 @@ header{
 
 /*結果出力画面*/
 .rankingdate{
+    width: 400px;
+    margin: 0 auto;
     padding: 20px 0px;
 }
 
@@ -205,6 +207,25 @@ header{
     color: #FFFFFF;
     background-color: #808080;
     border-radius: 10px;
+}
+
+#ranking{
+    padding: 10px;
+}
+
+.rankingflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nolist{
+    padding: 5px 0px;
+    margin: 0 auto 0 0;
+}
+
+.liststyle{
+    margin: 0 0 0 auto;
 }
 
 /*遊び方説明文*/
